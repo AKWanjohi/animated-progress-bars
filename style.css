@@ -18,9 +18,9 @@ body {
 }
 
 .skills h2 {
-  margin: 40px 0 5px;
+  margin-top: 40px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 
@@ -36,6 +36,9 @@ body {
   height: 10px;
   border-radius: 5px;
   width: 0;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .progress-bar span {
@@ -46,6 +49,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid;
   border-radius: 50%;
   background-color: #333;
   font-size: 14px;
@@ -53,47 +57,47 @@ body {
 
 .html {
   background-color: #f17e12;
-  animation: html 1s linear forwards;
+  animation-name: html;
 }
 
 .css {
   background-color: #0da2dd;
-  animation: css 1s linear forwards;
+  animation-name: css;
 }
 
 .javascript {
   background-color: #d4d000;
-  animation: javascript 1s linear forwards;
+  animation-name: javascript;
 }
 
 .python {
   background-color: #7415e0;
-  animation: python 1s linear forwards;
+  animation-name: python;
 }
 
 .react {
   background-color: #e014a3;
-  animation: react 1s linear forwards;
+  animation-name: react;
 }
 
 .html span {
-  border: 1px solid #f17e12;
+  border-color: #f17e12;
 }
 
 .css span {
-  border: 1px solid #0da2dd;
+  border-color: #0da2dd;
 }
 
 .javascript span {
-  border: 1px solid #d4d000;
+  border-color: #d4d000;
 }
 
 .python span {
-  border: 1px solid #7415e0;
+  border-color: #7415e0;
 }
 
 .react span {
-  border: 1px solid #e014a3;
+  border-color: #e014a3;
 }
 
 @keyframes html {
