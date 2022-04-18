@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.skills h2 {
+  margin: 40px 0 5px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.progress-bar {
+  width: 600px;
+  height: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #a5a5a5;
+}
+
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0;
+}
+
+.progress-bar span {
+  margin: -15px -20px 0 0;
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #333;
+  font-size: 14px;
+}
+
+.html {
+  background-color: #f17e12;
+  animation: html 1s linear forwards;
+}
+
+.css {
+  background-color: #0da2dd;
+  animation: css 1s linear forwards;
+}
+
+.javascript {
+  background-color: #d4d000;
+  animation: javascript 1s linear forwards;
+}
+
+.python {
+  background-color: #7415e0;
+  animation: python 1s linear forwards;
+}
+
+.react {
+  background-color: #e014a3;
+  animation: react 1s linear forwards;
+}
+
+.html span {
+  border: 1px solid #f17e12;
+}
+
+.css span {
+  border: 1px solid #0da2dd;
+}
+
+.javascript span {
+  border: 1px solid #d4d000;
+}
+
+.python span {
+  border: 1px solid #7415e0;
+}
+
+.react span {
+  border: 1px solid #e014a3;
+}
+
+@keyframes html {
+  100% {
+    width: 86%;
+  }
+}
+
+@keyframes css {
+  100% {
+    width: 74%;
+  }
+}
+
+@keyframes javascript {
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes python {
+  100% {
+    width: 54%;
+  }
+}
+
+@keyframes react {
+  100% {
+    width: 49%;
+  }
+}
