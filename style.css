@@ -1,3 +1,11 @@
+:root {
+  --html-width: 54%;
+  --css-width: ;
+  --javascript-width: ;
+  --python-width: ;
+  --react-width: ;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -102,30 +110,30 @@ body {
 
 @keyframes html {
   100% {
-    width: 86%;
+    width: var(--html-width);
   }
 }
 
 @keyframes css {
   100% {
-    width: 74%;
+    width: var(--css-width);
   }
 }
 
 @keyframes javascript {
   100% {
-    width: 65%;
+    width: var(--javascript-width);
   }
 }
 
 @keyframes python {
   100% {
-    width: 54%;
+    width: var(--python-width);
   }
 }
 
 @keyframes react {
   100% {
-    width: 49%;
+    width: var(--react-width);
   }
 }
